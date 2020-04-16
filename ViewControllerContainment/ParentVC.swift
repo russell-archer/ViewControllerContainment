@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ParentVCViewController.swift
 //  ViewControllerContainment
 //
 //  Created by Russell Archer on 15/04/2020.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ParentVCViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
-
-
+    
+    @IBAction func addNextVCTapped(_ sender: Any) {
+        print("Add next VC")
+    }
 }
-
