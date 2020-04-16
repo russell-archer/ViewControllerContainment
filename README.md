@@ -23,6 +23,8 @@ Set the child view controller’s views to be distinct colors:
 Add a UIView (this will be the “container view”) to the parent VC and create an outlet for it.
 Add a UIButton to the parent VC and create an action for it:
 
+![](./readme-assets/img3.png)
+
 In the parent view controller add:
 
 ``` swift
@@ -72,4 +74,4 @@ class ParentVC: UIViewController {
 
 Running the app produces:
 
-
+![](./readme-assets/final.gif)
